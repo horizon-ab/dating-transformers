@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Path: src/transformers/models/bert_generation/__init__.py
+# This will be used for text generation tasks.
+# Wowza, this is a lot of imports.
+
 from typing import TYPE_CHECKING
 
 from ...utils import OptionalDependencyNotAvailable, _LazyModule, is_sentencepiece_available, is_torch_available
